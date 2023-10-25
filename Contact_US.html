@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MID1.css">
+    <title>Astra Contact</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="logo">
+            <a href="Home.html">
+                <img src="logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Biodata.html">Biodata</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="wants.html">Wants</a></li>
+                <li><a href="https://unai.edu/">UNAI</a></li>
+                <li><a href="https://fti.unai.edu/">FTI UNAI</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <img src="search1.png" alt="search">
+          </div>
+          <div class="lang">
+            <a href="#" class="kanan">
+                <span class="active">ID</span>
+            </a>
+            <a href="#" class="kiri">
+                <span>EN</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    
+    <h1>Formulir Registrasi</h1>
+    
+    <form action="latihan web biodata diri.html" method="post">
+        <h5>klik kotak hitam di bawah untuk mengatur warna</h5>
+        <input type="color" name="color" id="color">
+        <div id="konten"> <br>
+
+        <fieldset>
+            <legend>Contact</legend>
+            
+            
+
+
+                
+                <label for="fname">Full Name:</label> <br>
+                <input type="text" id="fname" name="fname"> <br>
+                <label for="lname">User Name:</label> <br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Masukan Email Anda:</label>
+                <input type="email" id="em" name="em"><br>
+                <label for="pasword">Kata Sandi</label><br>
+                <input type="password" name="password" id="password"><br>
+
+                <p>masukan jenis kelamin:</p>
+                <input type="radio" name="jenis" id="pria" value="pria">
+                <label for="pria">pria</label>
+                <input type="radio" name="jenis" id="wanita" value="wanita">
+                <label for="wanita">wanita</label>
+                <br><br>
+        
+                
+                <label for="Agama">Apa Agama Anda: </label>
+                <select name="Agama" id="Agama">
+                    <option value="Islam">Islam</option>
+                    <option value="kristen">kristen</option>
+                    <option value="Advent">Advent</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="konghuchu">konghuchu</option>
+                </select><br><br>
+
+        
+
+              
+                
+
+                <br><br>
+                
+                <label for="pengalaman">Tulislah alamat</label><br>
+                <textarea name="pengalaman" id="pengalaman\" cols="30" rows="10"></textarea><br>
+        
+        
+                
+                
+        
+        
+                
+                <p>Pilih hobi Anda</p>
+                <input type="checkbox" name="hobi1" id="hobi1" value="Renang">
+                <label for="hobi1">Renang</label><br>
+                <input type="checkbox" name="hobi2" id="hobi2" value="sepak bola">
+                <label for="hobi2">sepak bola</label><br>
+                <input type="checkbox" name="hobi3" id="hobi3" value="mancing">
+                <label for="hobi3">mancing</label><br>
+                <input type="checkbox" name="hobi4" id="hobi4" value="basket">
+                <label for="hobi4">Basket</label><br><br>
+        
+        
+                <input type="submit" value="save">
+        
+        </div>
+            <script>
+                var pilihWarna = document.getElementById("color");
+                var konten = document.getElementById("konten");
+        
+                pilihWarna.addEventListener("input", function () {
+                    konten.style.backgroundColor = pilihWarna.value; 
+                });
+            </script>
+
+        
+
+       
+    </fieldset>
+       </div>
+            <script>
+                var pilihWarna = document.getElementById("color");
+                var konten = document.getElementById("konten");
+        
+                pilihWarna.addEventListener("input", function () {
+                    konten.style.backgroundColor = pilihWarna.value;
+                });
+            </script>
+
+    </form>
+</main>
+
+<footer>
+    <div class="footer1">
+        <div class="komfot1">
+        <p>Dapatkan Informasi Perkembangan Terkini Dari PT Astra International Tbk</p>
+        </div>
+        <div class="input">
+            <input type="email" name="EMAIL" id="EMAIL" placeholder="EMAIL">
+            <button type="submit">DAFTAR</button>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="container-footer2">
+            <div class="teks1">
+                <a href="#">
+                    <p>© PT ASTRA International Tbk </p>
+                </a>
+            </div>
+            <div class="teks2">
+                <div class="teks-1">
+                    <a href="">
+                    KEBIJAKAN PRIVASI
+                    </a>
+                </div>
+                <div class="teks-2">
+                    dan
+                </div>
+                <div class="teks-1">
+                    <a href="">
+                    KETENTUAN LAYANAN
+                    </a>
+                </div>
+            </div>
+            <div class="soclog">
+                <a href="https://id-id.facebook.com/pages/Semangat-Astra-Terpadu/155301371215459" title="" target="_blank" data-original-title="Facebook">
+                    <img src="facebook.png" alt="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/satu_indonesia" title="" target="_blank" data-original-title="Twitter">
+                    <img src="twiter.png" alt="">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/SATU_indonesia/" title="" target="_blank" data-original-title="Instagram">
+                    <img src="instagram.png" alt="">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="http://www.linkedin.com/company/pt.-astra-international" title="" target="_blank" data-original-title="LinkedIn+">
+                    <img src="linkedin.png" alt="">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

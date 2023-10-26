@@ -78,6 +78,24 @@ body {
     width: 30px;
     height: 30px;
 }
+.search input[type="text"] {
+    width: calc(45% - 30px); 
+    box-sizing: border-box;
+    border: 2px solid rgb(73, 202, 245);
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url(icons8-search-30.png);
+    background-position: calc(40%% - 20px); 
+    background-repeat: no-repeat;
+    padding: 10px; 
+    transition: width 0.4s ease-in-out;
+}
+
+.search input[type="text"]:focus {
+    width: 100%;
+}
+
 
 .navbar {
     flex: 1;
@@ -592,6 +610,5 @@ button{
     margin: 10px 0;
     
     }
-
 
   

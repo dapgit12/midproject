@@ -17,16 +17,18 @@
         </div>
         <div class="navbar">
             <ul>
-                <li><a href="Home.html">Home</a></li>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="Biodata.html">Biodata</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Contact_US.html">Contact</a></li>
                 <li><a href="wants.html">Wants</a></li>
                 <li><a href="https://unai.edu/">UNAI</a></li>
                 <li><a href="https://fti.unai.edu/">FTI UNAI</a></li>
             </ul>
         </div>
         <div class="search">
-            <img src="search1.png" alt="search">
+            <form>
+                <input type="text" name="search" placeholder="">
+              </form>
           </div>
           <div class="lang">
             <a href="#" class="kanan">
@@ -43,18 +45,14 @@
     
     <h1>Formulir Registrasi</h1>
     
-    <form action="latihan web biodata diri.html" method="post">
+    <form action="latihan web biodata diri.html" method="post" style="background-color: antiquewhite;">
         <h5>klik kotak hitam di bawah untuk mengatur warna</h5>
         <input type="color" name="color" id="color">
-        <div id="konten"> <br>
+        <br>
 
-        <fieldset>
+        <fieldset >
             <legend>Contact</legend>
-            
-            
-
-
-                
+             <div class="contact">         
                 <label for="fname">Full Name:</label> <br>
                 <input type="text" id="fname" name="fname"> <br>
                 <label for="lname">User Name:</label> <br>
@@ -63,13 +61,15 @@
                 <input type="email" id="em" name="em"><br>
                 <label for="pasword">Kata Sandi</label><br>
                 <input type="password" name="password" id="password"><br>
-
+            </div> 
+            <div class="jen">
                 <p>masukan jenis kelamin:</p>
                 <input type="radio" name="jenis" id="pria" value="pria">
                 <label for="pria">pria</label>
                 <input type="radio" name="jenis" id="wanita" value="wanita">
                 <label for="wanita">wanita</label>
                 <br><br>
+            
         
                 
                 <label for="Agama">Apa Agama Anda: </label>
@@ -110,30 +110,12 @@
         
         
                 <input type="submit" value="save">
+            </div>
         
-        </div>
-            <script>
-                var pilihWarna = document.getElementById("color");
-                var konten = document.getElementById("konten");
-        
-                pilihWarna.addEventListener("input", function () {
-                    konten.style.backgroundColor = pilihWarna.value; 
-                });
-            </script>
-
         
 
        
     </fieldset>
-       </div>
-            <script>
-                var pilihWarna = document.getElementById("color");
-                var konten = document.getElementById("konten");
-        
-                pilihWarna.addEventListener("input", function () {
-                    konten.style.backgroundColor = pilihWarna.value;
-                });
-            </script>
 
     </form>
 </main>

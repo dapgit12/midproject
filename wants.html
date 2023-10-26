@@ -6,41 +6,68 @@
     <link rel="stylesheet" href="MID1.css">
     <title>Astra wants</title>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>@keyframes backgroundAnimation {
+        0% { background-color: #38de0f; }
+        20% { background-color: #240fde; } 
+        50% { background-color: #fff200; } 
+        100% { background-color: #db32e0; } 
+    }
+    
+    body {
+        animation: backgroundAnimation 5s infinite; 
+    }
+    </style>
 </head>
 <body>
     <header>
-    <div class="header">
-        <div class="logo">
-            <a href="Home.html">
-                <img src="logo.png" alt="Logo">
-            </a>
+        <div class="header">
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Biodata.html">Biodata</a></li>
+                    <li><a href="Contact_US.html">Contact</a></li>
+                    <li><a href="wants.html">Wants</a></li>
+                    <li><a href="https://unai.edu/">UNAI</a></li>
+                    <li><a href="https://fti.unai.edu/">FTI UNAI</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" name="search" placeholder="">
+                  </form>
+              </div>
+              <div class="lang">
+                <a href="#" class="kanan">
+                    <span class="active">ID</span>
+                </a>
+                <a href="#" class="kiri">
+                    <span>EN</span>
+                </a>
+            </div>
         </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Biodata.html">Biodata</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="wants.html">Wants</a></li>
-                <li><a href="https://unai.edu/">UNAI</a></li>
-                <li><a href="https://fti.unai.edu/">FTI UNAI</a></li>
-            </ul>
-        </div>
-        <div class="search">
-            <img src="search1.png" alt="search">
-          </div>
-          <div class="lang">
-            <a href="#" class="kanan">
-                <span class="active">ID</span>
-            </a>
-            <a href="#" class="kiri">
-                <span>EN</span>
-            </a>
-        </div>
-    </div>
-</header>
+    </header>
+    
 
 <main>
-    
+    <h1>VIDIO</h1>
+    <div class="free">
+        <video poster="Suzume.png" controls width="640" height="360">
+            <source src="Suzume no Tojimari『Suzume』Theme Song.mp4" type="video/mp4">
+        </video>
+
+        <video poster="NCS.png" controls width="640" height="360">
+            <source src="NCS.mp4" type="video/mp4">
+        </video>
+        
+        <video poster="sparkel.png" controls width="640" height="360">
+            <source src="Sparkle _ Your Name AMV.mp4" type="video/mp4">
+        </video>
+    </div>
 </main>
 
 <footer>
